@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(200, 35, 123);">Venha realizar a viagem dos seus sonhos</h1>
+    </header>
+    <section>
+        <h2 style="color: rgb(199, 83, 195);">Faça um orçamento</h2>
+        <form method="get" action="">
+
+            <fieldset>
+            <legend>Dados do usuario</legend>
+            <label>Nome</label><br>
+            <input type="text" required name="nome"><br><br>
+
+            <label>E-mail</label><br>
+            <input type="email" required name="email"><br><br>
+            
+            <label>Data de ida</label><br>
+            <input type="date" name="dataIda"><br> <br>
+
+            <label>Data de volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" name="pessoas" required>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="passagens">Compra de passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="Veiculos" value="veiculos">Reserva de veiculos
+                </label>
+            </fieldset>
+            <br><br>    
+             <fieldset>
+                <legend>Forma de pagamento</legend>
+                <label> <input type="radio" name="formaPagamento" value="Cartão de credito">Cartão de crédito</label><br>
+                <label> <input type="radio" name="formaPagamento" value="boleto">Boleto</label><br>
+                <label> <input type="radio" name="formaPagamento" value="Pix">Pix</label><br>
+             </fieldset>
+             <br><br>
+            <fieldset>
+                <legend>Prazo de pagamento</legend><br>
+                <select  name=“pagamento”>
+                    <option  value=“aVista” selected>A Vista</option>
+                    <option  value=“cincoVezes”>Cinco vezes sem juros</option>
+                    <option  value=“dezVezes”>Dez vezes com juros</option>
+                </select><br><br>
+            </fieldset>
+                            <br><br>
+            <input type="submit">
+
+        </form>
+    </section>

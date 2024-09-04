@@ -1,0 +1,31 @@
+li{
+    color: rgb(77, 76, 78);
+}
+body{
+    font-weight: 400;
+    font-family: Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #595656;
+    margin: 15px;
+}
+h1{
+    font-size: 45px;
+    color: #303030;
+    padding: 25px;
+    text-align: center;
+}
+section, footer{
+    color: black;
+}
+h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#303030;
+    font-weight: 600;
+}
+.carousel-caption h5{
+    font-size: 60px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px #000000;
+}
